@@ -1,0 +1,13 @@
+# Walkthrough: a behaviour: how an agent takes its person through something in a shell on their screen, or
+# takes over or reviews one of theirs. The node adds SKILL.md's body after the wake prompt of each run.
+
+[extension]
+id = "walkthrough"
+name = "Walkthrough"
+version = "0.1.1"
+publisher = "aurelio"
+summary = "Show people how in a shell on their screen, one step at a time, and take over or review theirs."
+
+[behavior]
+skill = "SKILL.md"
+clients = ["claude", "codex", "gemini"]
