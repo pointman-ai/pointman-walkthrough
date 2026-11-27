@@ -4,10 +4,11 @@
 [extension]
 id = "walkthrough"
 name = "Walkthrough"
-version = "0.1.1"
+version = "0.2.0"
+node = ">=0.6,<1"
 publisher = "aurelio"
 summary = "Show people how in a shell on their screen, one step at a time, and take over or review theirs."
 
 [behavior]
 skill = "SKILL.md"
-clients = ["claude", "codex", "gemini"]
+harnesses = ["claude", "codex", "gemini"]
